@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_vehicle_fleet_form" model="ir.ui.view">
+        <field name="name">Fleet Vehicle</field>
+        <field name="model">vehicle.test</field>
+        <field name="arch" type="xml">
+        <form string="Fleet Vehicle form">
+             <header>
+<!--                        <button name="print_report" type="object"-->
+<!--                            string="List of Services" class="oe_highlight" />-->
+             </header>
+             <group string="Vehicle data" name="group_vehicle">
+                        <label for="license" string="License number"/>
+                        <div class="oe_inline" name="vehicle_test">
+                     <field name="license" string="License"></field>
+                        </div>
+                 <label for="driver_id" string="Driver"/>
+                        <div class="oe_inline" name="driver_test">
+                      <field name="driver_id" string="Driver"></field>
+                        </div>
+
+             </group>
+
+        </form>
+        </field>
+    </record>
+        <record id="vehicle_test_tree_view" model="ir.ui.view">
+            <field name="name">vehicle_test.tree.view</field>
+            <field name="model">vehicle.test</field>
+            <field name="arch" type="xml">
+                <tree string="Vehicle Information">
+                    <field name="license" />
+                    <field name="driver_id" />
+                </tree>
+            </field>
+        </record>
+</odoo>

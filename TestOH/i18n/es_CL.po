@@ -1,0 +1,204 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* TestOH
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-29 21:41+0000\n"
+"PO-Revision-Date: 2022-04-29 21:41+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: TestOH
+#: model:ir.model.fields,field_description:TestOH.field_fleet_services_test__create_uid
+#: model:ir.model.fields,field_description:TestOH.field_services__create_uid
+#: model:ir.model.fields,field_description:TestOH.field_vehicle_test__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: TestOH
+#: model:ir.model.fields,field_description:TestOH.field_fleet_services_test__create_date
+#: model:ir.model.fields,field_description:TestOH.field_services__create_date
+#: model:ir.model.fields,field_description:TestOH.field_vehicle_test__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: TestOH
+#: model:ir.model.fields,field_description:TestOH.field_fleet_services_test__display_name
+#: model:ir.model.fields,field_description:TestOH.field_services__display_name
+#: model:ir.model.fields,field_description:TestOH.field_vehicle_test__display_name
+msgid "Display Name"
+msgstr "Mostrar nombre"
+
+#. module: TestOH
+#: model:ir.model.fields,field_description:TestOH.field_vehicle_test__driver_id
+#: model_terms:ir.ui.view,arch_db:TestOH.view_vehicle_fleet_form
+msgid "Driver"
+msgstr "Conductor"
+
+#. module: TestOH
+#: model:ir.actions.act_window,name:TestOH.action_fleet_services
+#: model:ir.ui.menu,name:TestOH.menu_fleet_services
+msgid "Fleet Services"
+msgstr "Lista de Servicios"
+
+#. module: TestOH
+#: model_terms:ir.ui.view,arch_db:TestOH.view_fleet_services_test_form
+msgid "Fleet Vehicle"
+msgstr "Vehiculo Flota"
+
+#. module: TestOH
+#: model_terms:ir.ui.view,arch_db:TestOH.view_vehicle_fleet_form
+msgid "Fleet Vehicle form"
+msgstr "Formulario Vehiculo flota"
+
+#. module: TestOH
+#: model:ir.actions.act_window,name:TestOH.action_vehicle_test
+#: model:ir.ui.menu,name:TestOH.menu_vehicle_test
+msgid "Fleet Vehicle test"
+msgstr "Vehiculo prueba"
+
+#. module: TestOH
+#: model:ir.model.fields,field_description:TestOH.field_fleet_services_test__id
+#: model:ir.model.fields,field_description:TestOH.field_services__id
+#: model:ir.model.fields,field_description:TestOH.field_vehicle_test__id
+msgid "ID"
+msgstr "Id"
+
+#. module: TestOH
+#: model:ir.model.fields,field_description:TestOH.field_fleet_services_test____last_update
+#: model:ir.model.fields,field_description:TestOH.field_services____last_update
+#: model:ir.model.fields,field_description:TestOH.field_vehicle_test____last_update
+msgid "Last Modified on"
+msgstr "Modificado en"
+
+#. module: TestOH
+#: model:ir.model.fields,field_description:TestOH.field_fleet_services_test__write_uid
+#: model:ir.model.fields,field_description:TestOH.field_services__write_uid
+#: model:ir.model.fields,field_description:TestOH.field_vehicle_test__write_uid
+msgid "Last Updated by"
+msgstr "Ultima modificacion por"
+
+#. module: TestOH
+#: model:ir.model.fields,field_description:TestOH.field_fleet_services_test__write_date
+#: model:ir.model.fields,field_description:TestOH.field_services__write_date
+#: model:ir.model.fields,field_description:TestOH.field_vehicle_test__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: TestOH
+#: model_terms:ir.ui.view,arch_db:TestOH.view_services_form
+#: model_terms:ir.ui.view,arch_db:TestOH.view_vehicle_fleet_form
+msgid "License"
+msgstr "Licencia"
+
+#. module: TestOH
+#: model_terms:ir.ui.view,arch_db:TestOH.view_vehicle_fleet_form
+msgid "License number"
+msgstr "Matricula"
+
+#. module: TestOH
+#: model_terms:ir.ui.view,arch_db:TestOH.view_services_form
+msgid "List Services"
+msgstr "Lista de servicios"
+
+#. module: TestOH
+#: model:ir.model.fields,field_description:TestOH.field_fleet_services_test__service_id
+#: model_terms:ir.ui.view,arch_db:TestOH.view_fleet_services_test_form
+msgid "Service"
+msgstr "Servicio"
+
+#. module: TestOH
+#: model:ir.model.fields,field_description:TestOH.field_fleet_services_test__service_name
+#: model:ir.model.fields,field_description:TestOH.field_services__name
+msgid "Service name"
+msgstr "Nombre de Servicio"
+
+#. module: TestOH
+#: model:ir.actions.act_window,name:TestOH.action_services
+#: model:ir.ui.menu,name:TestOH.menu_services
+#: model_terms:ir.ui.view,arch_db:TestOH.services_tree_view
+msgid "Services"
+msgstr "Servicios"
+
+#. module: TestOH
+#: model:res.groups,name:TestOH.group_services_test
+msgid "Services Test"
+msgstr "Servicios test"
+
+#. module: TestOH
+#: model_terms:ir.ui.view,arch_db:TestOH.view_services_form
+msgid "Services form"
+msgstr "Formulario de servicios"
+
+#. module: TestOH
+#: model:ir.model.fields,field_description:TestOH.field_fleet_services_test__vehicle_id
+#: model_terms:ir.ui.view,arch_db:TestOH.view_fleet_services_test_form
+msgid "Vehicle"
+msgstr "Carro"
+
+#. module: TestOH
+#: model_terms:ir.ui.view,arch_db:TestOH.vehicle_test_tree_view
+msgid "Vehicle Information"
+msgstr "Info Carro"
+
+#. module: TestOH
+#: model_terms:ir.ui.view,arch_db:TestOH.vehicle_test_service_tree_view
+msgid "Vehicle Services Information"
+msgstr "Info Servicios "
+
+#. module: TestOH
+#: model_terms:ir.ui.view,arch_db:TestOH.view_vehicle_fleet_form
+msgid "Vehicle data"
+msgstr "Data Vehiculo"
+
+#. module: TestOH
+#: model_terms:ir.ui.view,arch_db:TestOH.view_fleet_services_test_form
+msgid "Vehicle services"
+msgstr "Servicios de vehiculo"
+
+#. module: TestOH
+#: model:res.groups,name:TestOH.group_vehicle_test
+msgid "Vehicle test"
+msgstr "Vehiculo test"
+
+#. module: TestOH
+#: model:ir.model,name:TestOH.model_fleet_services_test
+msgid "fleet.services.test"
+msgstr "Servicios Flota test"
+
+#. module: TestOH
+#: model:ir.model.fields,field_description:TestOH.field_vehicle_test__license
+msgid "license"
+msgstr "Licencia"
+
+#. module: TestOH
+#: model_terms:ir.ui.view,arch_db:TestOH.view_services_form
+msgid "name"
+msgstr "Nombre"
+
+#. module: TestOH
+#: model_terms:ir.ui.view,arch_db:TestOH.view_fleet_services_test_form
+msgid "service_name"
+msgstr "Nombre servicio"
+
+#. module: TestOH
+#: model:ir.model,name:TestOH.model_services
+msgid "services"
+msgstr "Servicios"
+
+#. module: TestOH
+#: model:res.groups,comment:TestOH.group_services_test
+msgid "the user will have access to his own data in the Services test"
+msgstr ""
+
+#. module: TestOH
+#: model:ir.model,name:TestOH.model_vehicle_test
+msgid "vehicle.test"
+msgstr "Vehiculo Test"

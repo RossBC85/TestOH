@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_services_form" model="ir.ui.view">
+        <field name="name">Services</field>
+        <field name="model">services</field>
+        <field name="arch" type="xml">
+        <form string="Services form">
+             <header>
+<!--                        <button name="print_report" type="object"-->
+<!--                            string="List of Services" class="oe_highlight" />-->
+             </header>
+             <group string="List Services" name="group_services">
+                        <label for="name" string="name"/>
+                        <div class="oe_inline" name="name_services">
+                     <field name="name" string="License"></field>
+                        </div>
+
+
+             </group>
+
+        </form>
+        </field>
+    </record>
+        <record id="services_tree_view" model="ir.ui.view">
+            <field name="name">services.tree.view</field>
+            <field name="model">services</field>
+            <field name="arch" type="xml">
+                <tree string="Services">
+                    <field name="name" />
+                </tree>
+            </field>
+        </record>
+     <record id="action_services" model="ir.actions.act_window">
+            <field name="name">Services</field>
+            <field name="res_model">services</field>
+            <field name="binding_view_types">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+      <menuitem id="menu_services" action="action_services"
+            parent="menu_vehicle_test" sequence="1" />
+</odoo>

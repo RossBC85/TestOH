@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2020 ACSONE SA/NV
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+     <record id="services_01" model="services" >
+        <field name="name">Cambio de bujia</field>
+      </record>
+
+       <record id="services_02" model="services" >
+        <field name="name">Cambio de aceite</field>
+      </record>
+
+       <record id="services_03" model="services" >
+        <field name="name">Cambio de Refrigerante</field>
+      </record>
+
+       <record id="services_04" model="services" >
+        <field name="name">Cambio de correa</field>
+      </record>
+
+    <record id="fleet_vehicle_type_01" model="vehicle.test">
+          <field name="license">AT5880</field>
+    </record>
+    <record id="fleet_vehicle_type_02" model="vehicle.test">
+        <field name="license">AT-5990</field>
+    </record>
+     <record id="fleet_vehicle_service_02" model="fleet.services.test">
+        <field name="service_name">Servicio de limpieza de bujia</field>
+         <field name="service_id" ref="services_01"/>
+          <field name="vehicle_id" ref="fleet_vehicle_type_02"/>
+    </record>
+     <record id="fleet_vehicle_service_03" model="fleet.services.test">
+        <field name="service_name">Cambio de aceite</field>
+         <field name="service_id" ref="services_02"/>
+          <field name="vehicle_id" ref="fleet_vehicle_type_01"/>
+    </record>
+
+</odoo>

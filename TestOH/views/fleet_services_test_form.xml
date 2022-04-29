@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_fleet_services_test_form" model="ir.ui.view">
+        <field name="name">Fleet Services</field>
+        <field name="model">fleet.services.test</field>
+         <field name="arch" type="xml">
+        <form string="Fleet Vehicle">
+             <header>
+<!--                        <button name="print_report" type="object"-->
+<!--                            string="List of Services" class="oe_highlight" />-->
+             </header>
+              <group string="Vehicle services" name="group_services">
+                        <label for="service_name" string="service_name"/>
+                        <div class="oe_inline" name="Service Vehicle">
+                          <field name="service_name"></field>
+                        </div>
+                  <label for="service_id" string="Service"/>
+                        <div class="oe_inline" name="service">
+                           <field name="service_id"></field>
+                        </div>
+                   <label for="vehicle_id" string="Vehicle"/>
+                        <div class="oe_inline" name="Vehicle">
+                           <field name="vehicle_id"></field>
+                        </div>
+              </group>
+        </form>
+        </field>
+    </record>
+     <record id="vehicle_test_service_tree_view" model="ir.ui.view">
+            <field name="name">fleet_services_test.tree.view</field>
+            <field name="model">fleet.services.test</field>
+            <field name="arch" type="xml">
+                <tree string="Vehicle Services Information">
+                    <field name="service_name" />
+                     <field name="service_id" />
+                    <field name="vehicle_id" />
+                </tree>
+            </field>
+        </record>
+    <record id="action_vehicle_test" model="ir.actions.act_window">
+            <field name="name">Fleet Vehicle test</field>
+            <field name="res_model">vehicle.test</field>
+            <field name="binding_view_types">form</field>
+            <field name="view_mode">tree,form</field>
+    </record>
+     <record id="action_fleet_services" model="ir.actions.act_window">
+            <field name="name">Fleet Services</field>
+            <field name="res_model">fleet.services.test</field>
+            <field name="binding_view_types">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="menu_vehicle_test" action="action_vehicle_test"
+            sequence="10" />
+
+        <menuitem id="menu_fleet_services" action="action_fleet_services"
+            parent="menu_vehicle_test" sequence="0" />
+</odoo>
